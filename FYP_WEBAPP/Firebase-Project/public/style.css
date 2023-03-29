@@ -1,0 +1,415 @@
+tml {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0B0C10;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#authentication-bar{
+    display: flex;
+    justify-content: center;
+    background-color:mintcream;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+    width: 20%;
+}
+#content-sign-in{
+    background: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 1px;
+   
+
+}
+
+#user-details{
+    color: cadetblue;
+}
+#authentication-status{
+    color: black;
+}
+.contentfirst{
+    background: aliceblue;
+   
+  height: 80vh;
+    padding-top: 1px;
+
+}
+.content {
+    padding: 20px;
+}
+
+#authentication-bar p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+
+#LastUpdate{
+    display: flex;
+    justify-content: center;
+}
+
+#logout-link{
+    border: 2px solid black;
+    max-width: 100px;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: black;
+    border-radius: 10px;
+    color: white;
+}
+#topMainHeading{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    max-width: 500px;
+    width: 100%;
+
+}
+
+#backButton{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid blackk;
+    border: 1px solid black;
+    width: 6%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 10px;
+
+}
+#chart-temperature{
+    max-width: 100%;
+}
+#chart-humidity{
+    max-width: 100%;
+}
+#chart-current{
+    max-width: 100%;
+}
+#chart-voltage{
+    max-width: 100%;
+}
+#chart-vibration{
+    max-width: 100%;
+}
+
+
+#MainButton{
+
+    text-decoration: none;
+}
+@media (max-width: 873px) {
+    #topMainHeading{
+        
+    justify-content: center;
+    }
+    
+}
+#topClicks{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 23px;
+
+}
+#charts-div{
+    background: aliceblue;
+    padding-top: 1px;
+    padding-bottom: 20px;
+
+}
+#chartMAinDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chartFont{
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+#charts-range{
+    padding: 7px 16px !important;
+
+}
+
+#Motor{
+    font-size: 30px;
+}
+.card {
+    background-color: #C5C6C7;
+    box-shadow: 2px 2px 12px 1px rgba(227, 199, 199, 0.5);
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+}
+.cardSec {
+    background-color: #C5C6C7;
+    box-shadow: 2px 2px 12px 1px rgba(227, 199, 199, 0.5);
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.cardsSec {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
+.reading {
+    color: #193036;
+}
+
+.date-time{
+    font-size: 1.3rem;
+    color: #1282A2;
+}
+
+button {
+    background-color: #049faa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+   opacity: 0.8;
+}
+.deletebtn{
+    background-color: #c52c2c;
+}
+.dowloadbtn{
+    background-color: #2cc536;
+}
+
+.form-elements-container{
+    padding: 16px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+}   
+tr, td {
+    padding: 0.25rem;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:hover {
+    background-color: #ddd;
+}
+th {
+    position: sticky;
+    top: 0;
+    background-color: #50b8b4;
+    color: white;
+}
+
+#Buttons{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+  
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+  
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Modal Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and delete button on extra small screens */
+
+
+@media (max-width:967px) {
+    #authentication-bar{
+        width:40%
+    }
+}
+@media (max-width:590px) {
+    #authentication-bar{
+        width:30%
+    }
+    #user-details{
+       font-size: 12px;
+    }
+}
+
+@media (max-width:540px) {
+    .topnav{
+        
+        flex-direction: column;
+    }
+    #authentication-bar{
+        width:100%
+    }
+    #user-details{
+        font-size: 20px;
+     }
+    
+}
+
+@media (max-width:431px) {
+    .card {
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+#Buttons{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+@media (max-width:400px) {
+    #chartFont {
+        font-size: 15px;
+        
+    }
+    #charts-range{
+        padding: 4px 10px !important;
+    
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .deletebtn {
+        width: 100%;
+    }
+}
+
+.popup {
+    background-color: #dc3434d6;
+    width: 100px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+
+}
+#voltpara,#vibpara,#humpara,#currpara,#temppara {
+    color: red; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:700; 
+    font-size:large;
+}
+
+
